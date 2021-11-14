@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DOM tasks</title>
+</head>
+<body>
+    <section>
+        <h1>Задача 1. Алерт по нажатию на кнопку</h1>
+        <p><span>Задание:</span> повторите поведение кнопки по нажатию на нее:</p>
+        <button onclick="alert('Привет!')">Нажми на меня</button>
+    </section>
+    <section>
+        <h1>Задача 2. Изменение текста в инпуте</h1>
+        <p><span>Задание:</span> повторите поведение кнопки по нажатию на нее (она меняет текст в инпуте):</p>
+        <button onclick="buttonClick()">Нажми на меня</button>
+        <input type="text" id="input2" value="???">
+    </section>
+    <section>
+        <h1>Задача 3. Вывод содержимого инпута</h1>
+        <p><span>Задание:</span> повторите поведение кнопки по нажатию на нее (она выводит алертом содержимое инпута):</p>
+        <button onclick="buttonAlert()">Нажми на меня</button>
+        <input type="text" id="input3" placeholder="Введите что-нибудь">
+    </section>
+    <section>
+        <h1>Задача 4. Квадрат содержимого инпута</h1>
+        <p><span>Задание:</span> повторите поведение кнопки по нажатию на нее (она выводит алертом содержимое инпута, возведенное в квадрат):</p>
+        <button onclick="buttonSq()">Нажми на меня</button>
+        <input type="text" id="input4" placeholder="Введите число!">
+    </section>
+    <section>
+        <h1>Задача 5. Обмен содержимым между инпутами</h1>
+        <p><span>Задание:</span> повторите поведение кнопки по нажатию на нее (она осуществляет обмен содержимым между двумя инпутами, можете
+        понажимать на нее несколько раз или вручную сменить содержимое инпутов):</p>
+        <button onclick="buttonClickInput()">Нажми на меня</button>
+        <input type="text" id="input5-1" value="!!!"><input type="text" id="input5-2" value="???">
+    </section>
+    <section>
+        <h1>Задача 6. Работа с CSS</h1>
+        <p><span>Задание:</span> повторите поведение кнопки по нажатию на нее (она меняет цвет текста в инпуте):</p>
+        <button onclick="changeColor()">Нажми на меня</button>
+        <input type="text" id="input6" value="Какой-то текст!">
+    </section>
+    <section>
+        <h1>Задача 7. Блокирование полей ввода</h1>
+        <p><span>Задание:</span> повторите поведение кнопок по нажатию на них (одна из них блокирует инпут с помощью атрибута disabled, а другая
+        разблокирует):</p>
+        <button onclick="buttonBlock()">Заблокировать</button>
+        <button onclick="buttonUnblock()">Разблокировать</button>
+        <input type="text" id="input7" value="Какой-то текст!">
+    </section>
+    <script src='./script.js'></script>
+</body>
+</html>
